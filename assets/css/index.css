@@ -3,17 +3,17 @@ body, html {
         margin: 0;
 }
 #space {
+    overflow: hidden;
     background-image: url("./images/sky.png");
-    height: 100%; 
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    /* position: fixed;
+    position: fixed;
     top: 0;
     height: 100%;
     width: 100%;
     z-index: 0;
-    background-size: calc(100% + 50px); */
+    background-size: calc(100% + 50px);
     display: flex;
     justify-content: center;
 }
@@ -295,4 +295,15 @@ body, html {
     position: absolute;
     top: 65px;
     left: 70px;
+}
+#slider {
+    width: 48.94px;
+    height: 458px;
+    position: absolute;
+    right: 32.14px;
+    top: 169.45px;
+    display: block;
+    float: right;
+    border-radius: 33.5px;
+    background-color: rgba(216, 216, 216, 0.2);
 }
