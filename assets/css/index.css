@@ -1,9 +1,75 @@
-body {
+body, html {
+        height: 100%;
+        margin: 0;
+}
+#space {
     background-image: url("./images/sky.png");
-    position:fixed ;
-    top:0;
-    height:100%;
-    width:100%;
-    z-index:0;
-    background-size: calc(100% + 50px);
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* position: fixed;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+    background-size: calc(100% + 50px); */
+    display: flex;
+    justify-content: center;
+}
+#layer7 {
+    object-fit: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+#layer6 {
+    position: absolute;
+    right: 34.33px;
+    left: 22.64px;
+}
+#layer5 {
+    position: absolute;
+    right: 18.26px;
+    left: 48.21px;
+    top: 62.82px;
+}
+#layer4 {
+    position: absolute;
+    right: 21.91px;
+    left: 6.57px;
+    top: 40.17px;
+}
+#layer3 {
+    position: absolute;
+    right: 53.32px;
+    left: 13.87px;
+    top: 21.91px;
+}
+#layer2 {
+    position: absolute;
+    right: 32.14px;
+    left: 8.03px;
+    top: 23.375px;
+}
+#layer1 {
+    position: absolute;
+    right: 13.87px;
+    left: 11.68px;
+    top: 18.26px;
+}
+#outernucleus {
+    position: absolute;
+    right: 73.04px;
+    left: 37.98px;
+    top: 49.67px;
+    bottom: 92.76px;
+}
+#innernucleus {
+    position: absolute;
+    right: 30.67px;
+    left: 14.6px;
+    top: 22.64px;
+    bottom: 29.21px;
 }
