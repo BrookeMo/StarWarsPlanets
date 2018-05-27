@@ -73,3 +73,226 @@ body, html {
     top: 22.64px;
     bottom: 29.21px;
 }
+#polismassa {
+    position: absolute;
+    right: 330px;
+    top: 605px;
+}
+#lasan {
+    position: absolute;
+    right: 100px;
+    top: 585px;
+}
+#lothal {
+    position: absolute;
+    left: 475px;
+    top: 130px;
+}
+#malachor {
+    position: absolute;
+    left: 435px;
+    top: 70px;
+}
+#cantonica {
+    position: absolute;
+    left: 415px;
+    top: 50px;
+}
+#lahmu {
+    position: absolute;
+    top: 40px;
+    left: 200px;
+}
+#seelos {
+    position: absolute;
+    top: 55px;
+    left: 300px;
+}
+#atollon {
+    position: absolute;
+    left: 455px;
+    top: 145px;
+}
+#eadu {
+    position: absolute;
+    left: 440px;
+    top: 180px;
+}
+#starkillerbase {
+    position: absolute;
+    left: 50px;
+    top: 155px;
+}
+#ahchto {
+    position: absolute;
+    left: 5px;
+    top: 325px;
+}
+#mustafar {
+    position: absolute;
+    left: 160px;
+    top: 553px;
+}
+#utapau {
+    position: absolute;
+    left: 250px;
+    top: 562px;
+}
+#ryloth {
+    position: absolute;
+    left: 400px;
+    top: 500px;
+}
+#kamino {
+    position: absolute;
+    left: 425px;
+    top: 475px;
+}
+#dagobah {
+    position: absolute;
+    left: 180px;
+    top: 470px;
+}
+#kessel {
+    position: absolute;
+    left: 368px;
+    top: 105px;
+}
+#stygeonprime {
+    position: absolute;
+    left: 350px;
+    top: 76px;
+}
+#yavin {
+    position: absolute;
+    left: 285px;
+    top: 50px;
+}
+#datooine {
+    position: absolute;
+    left: 125px;
+    top: 14px;
+}
+#agamar {
+    position: absolute;
+    top: 25px;
+    left: 155px;
+}
+#endor {
+    position: absolute;
+    top: 340px;
+    left: 25px;
+}
+#bepsin {
+    position: absolute;
+    top: 393px;
+    left: 85px;
+}
+#hoth {
+    position: absolute;
+    top: 393px;
+    left: 108px;
+}
+#crait {
+    position: absolute;
+    top: 363px;
+    left: 190px;
+}
+#dqar {
+    position: absolute;
+    top: 365px;
+    left: 230px;
+}
+#geonosis {
+    position: absolute;
+    top: 340px;
+    left: 315px;
+}
+#tattoine {
+    position: absolute;
+    top: 320px;
+    left: 335px;
+}
+#scariff {
+    position: absolute;
+    top: 260px;
+    left: 365px;
+}
+#dathomir {
+    position: absolute;
+    top: 10px;
+    left: 180px;
+}
+#krownest {
+    position: absolute;
+    top: 28px;
+    left: 240px;
+}
+#concorddawn {
+    position: absolute;
+    top: 35px;
+    left: 250px;
+}
+#waboni {
+    position: absolute;
+    top: 85px;
+    left: 300px;
+}
+#naboo {
+    position: absolute;
+    top: 324px;
+    left: 215px;
+}
+#jedha {
+    position: absolute;
+    top: 90px;
+    left: 11px;
+}
+#shili {
+    position: absolute;
+    top: 30px;
+    left: 120px;
+}
+#mandalore {
+    position: absolute;
+    top: 20px;
+    left: 233px;
+}
+#kashyyk {
+    position: absolute;
+    top: 90px;
+    left: 250px;
+}
+#onderon {
+    position: absolute;
+    top: 80px;
+    left: 180px;
+}
+.alderan {
+    position: absolute;
+    top: 125px;
+    left: 240px;
+}
+#alderanintact {
+    visibility: hidden;
+}
+#takadona {
+    position: absolute;
+    top: 235px;
+    left: 60px;
+}
+#jakku {
+    position: absolute;
+    top: 180px;
+    left: 20px;
+}
+#coruscant {
+    position: absolute;
+    top: 10px;
+    left: 30px;
+}
+#hosnianprime {
+    position: absolute;
+    top: 65px;
+    left: 70px;
+}
