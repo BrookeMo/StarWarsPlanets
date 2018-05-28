@@ -4,7 +4,7 @@ body, html {
 }
 #space {
     overflow: hidden;
-    background-image: url("./images/sky.png");
+    background-image: url("./images/space.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -13,297 +13,685 @@ body, html {
     height: 100%;
     width: 100%;
     z-index: 0;
-    background-size: calc(100% + 50px);
+    background-size: calc(100% + 10%);
     display: flex;
     justify-content: center;
+}
+#title {
+    font-family: 'SFDistantGalaxy';
+    letter-spacing: 3.3px;
+    text-align: center;
+    color: #f8e71c;
+    font-size: 95px;
+    margin: 10px 0 10px 0;
+    display: block;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+#map {
+    display: block;
+    position: relative;
+    top: 2%;
+    height: 76%;
+    width: 33%;
+    margin: auto;
+    z-index: 0;
+    border: white solid 3px;
+}
+#layer9 {
+    height: 100%;
+    margin: auto;
+    position: relative;
+    z-index: 1;
+}
+#layer8 {
+    height: 90.11553273427471%;
+    position: absolute;
+    top: 5.006418485237484%;
+    left: 3.465982028241335%;
+    z-index: 2;
 }
 #layer7 {
-    object-fit: contain;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    position: relative;
+    height: 76.76508344030809%;
+    position: absolute;
+    top: 14.890885750962774%;
+    left: 10.783055198973042%;
+    z-index: 3;
 }
 #layer6 {
+    height: 62.90115532734275%;
     position: absolute;
-    right: 34.33px;
-    left: 22.64px;
+    top: 20.92426187419769%;
+    left: 11.810012836970476%;
+    z-index: 4;
 }
 #layer5 {
+    height: 55.198973042362%;
     position: absolute;
-    right: 18.26px;
-    left: 48.21px;
-    top: 62.82px;
+    top: 24.261874197689345%;
+    left: 13.992297817715018%;
+    z-index: 5;
 }
 #layer4 {
+    height: 49.29396662387677%;
     position: absolute;
-    right: 21.91px;
-    left: 6.57px;
-    top: 40.17px;
+    top: 27.856225930680363%;
+    left: 15.14762516046213%;
+    z-index: 6;
 }
 #layer3 {
+    height: 43.51732991014121%;
     position: absolute;
-    right: 53.32px;
-    left: 13.87px;
-    top: 21.91px;
+    top: 30.680359435173298%;
+    left: 16.816431322207958%;
+    z-index: 7;
 }
 #layer2 {
+    height: 27.342747111681643%;
     position: absolute;
-    right: 32.14px;
-    left: 8.03px;
-    top: 23.375px;
+    top: 35.5584082156611%;
+    left: 21.052631578947366%;
+    z-index: 8;
 }
 #layer1 {
+    height: 19.51219512195122%;
     position: absolute;
-    right: 13.87px;
-    left: 11.68px;
-    top: 18.26px;
+    top: 39.02439024390244%;
+    left: 23.23491655969191%;
+    z-index: 9;
 }
-#outernucleus {
-    position: absolute;
-    right: 73.04px;
-    left: 37.98px;
-    top: 49.67px;
-    bottom: 92.76px;
-}
-#innernucleus {
-    position: absolute;
-    right: 30.67px;
-    left: 14.6px;
-    top: 22.64px;
-    bottom: 29.21px;
-}
-#polismassa {
-    position: absolute;
-    right: 330px;
-    top: 605px;
-}
-#lasan {
-    position: absolute;
-    right: 100px;
-    top: 585px;
-}
-#lothal {
-    position: absolute;
-    left: 475px;
-    top: 130px;
-}
-#malachor {
-    position: absolute;
-    left: 435px;
-    top: 70px;
+.planet {
+    width: 10px;
 }
 #cantonica {
     position: absolute;
-    left: 415px;
-    top: 50px;
+    top: 12.195121951219512%;
+    left: 81.48148148148148%;
+    z-index: 10;
 }
-#lahmu {
+#malachor {
     position: absolute;
-    top: 40px;
-    left: 200px;
+    top: 16.30295250320924%;
+    left: 85.18518518518519%;
+    z-index: 10;
 }
-#seelos {
+#lothal {
     position: absolute;
-    top: 55px;
-    left: 300px;
+    top: 24.390243902439025%;
+    left: 91.9753086419753%;
+    z-index: 10;
 }
-#atollon {
+#lasan {
     position: absolute;
-    left: 455px;
-    top: 145px;
+    top: 95.37869062901156%;
+    left: 70.83333333333334%;
+    z-index: 10;
 }
-#eadu {
+#polismassa {
     position: absolute;
-    left: 440px;
-    top: 180px;
-}
-#starkillerbase {
-    position: absolute;
-    left: 50px;
-    top: 155px;
+    top: 98.45956354300385%;
+    left: 32.25308641975309%;
+    z-index: 10;
 }
 #ahchto {
     position: absolute;
-    left: 5px;
-    top: 325px;
+    top: 53.78690629011553%;
+    left: 0.7716049382716049%;
+    z-index: 10;
 }
-#mustafar {
-    position: absolute;
-    left: 160px;
-    top: 553px;
+.label {
+    height: 10px;
+    padding: 2px 2px 0px 2px;
+    font-family: 'Calamity';
+    font-size: 8px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+    background-color: white;
 }
-#utapau {
+#cantonicalabel {
     position: absolute;
-    left: 250px;
-    top: 562px;
+    top: 12.066752246469834%;
+    left: 84.41358024691358%;
+    z-index: 10;
 }
-#ryloth {
+#malachorlabel {
     position: absolute;
-    left: 400px;
-    top: 500px;
+    top: 16.174582798459564%;
+    right: 15.74074074074074%;
+    z-index: 10;
+}
+#lothallabel {
+    position: absolute;
+    top: 24.261874197689345%;
+    right: 8.796296296296296%;
+    z-index: 10;
+}
+#lasanlabel {
+    position: absolute;
+    top: 95.25032092426187%;
+    left: 74.22839506172839%;
+    z-index: 10;
+}
+#polismassalabel {
+    position: absolute;
+    top: 98.33119383825417%;
+    right: 68.20987654320987%;
+    z-index: 10;
+}
+#ahchtolabel {
+    position: absolute;
+    top: 53.53016688061617%;
+    left: 3.3950617283950617%;
+    z-index: 10;
+}
+#lahmu {
+    position: absolute;
+    top: 11.0397946084724%;
+    left: 40.4320987654321%;
+    z-index: 10;
+}
+#seelos {
+    position: absolute;
+    top: 14.120667522464696%;
+    left: 59.876543209876544%;
+    z-index: 10;
+}
+#atollon {
+    position: absolute;
+    top: 27.342747111681643%;
+    left: 88.58024691358025%;
+    z-index: 10;
+}
+#eadu {
+    position: absolute;
+    top: 32.60590500641848%;
+    left: 84.72222222222221%;
+    z-index: 10;
 }
 #kamino {
     position: absolute;
-    left: 425px;
-    top: 475px;
+    top: 77.92041078305519%;
+    left: 79.4753086419753%;
+    z-index: 10;
 }
-#dagobah {
+#ryloth {
     position: absolute;
-    left: 180px;
-    top: 470px;
+    top: 81.51476251604622%;
+    left: 78.85802469135803%;
+    z-index: 10;
 }
-#kessel {
+#utapau {
     position: absolute;
-    left: 368px;
-    top: 105px;
+    top: 91.65596919127086%;
+    left: 51.23456790123457%;
+    z-index: 10;
 }
-#stygeonprime {
+#mustafar {
     position: absolute;
-    left: 350px;
-    top: 76px;
+    top: 90.11553273427471%;
+    left: 33.33333333333333%;
+    z-index: 10;
 }
-#yavin {
+#starkillerbase {
     position: absolute;
-    left: 285px;
-    top: 50px;
+    top: 29.653401797175867%;
+    left: 10.95679012345679%;
+    z-index: 10;
+}
+#lahmulabel {
+    position: absolute;
+    top: 10.783055198973042%;
+    left: 43.67283950617284%;
+    z-index: 10;
+}
+#seeloslabel {
+    position: absolute;
+    top: 13.928112965340182%;
+    left: 52.63157894736842%;
+    z-index: 10;
+}
+#atollonlabel {
+    position: absolute;
+    top: 27.214377406931966%;
+    left: 91.51234567901234%;
+    z-index: 10;
+}
+#eadulabel {
+    position: absolute;
+    top: 32.47753530166881%;
+    left: 87.96296296296296%;
+    z-index: 10;
+}
+#kaminolabel {
+    position: absolute;
+    top: 77.66367137355584%;
+    left: 82.56172839506173%;
+    z-index: 10;
+}
+#rylothlabel {
+    position: absolute;
+    top: 81.38639281129653%;
+    left: 81.79012345679013%;
+    z-index: 10;
+}
+#utapaulabel {
+    position: absolute;
+    top: 91.52759948652118%;
+    left: 54.01234567901234%;
+    z-index: 10;
+}
+#mustafarlabel {
+    position: absolute;
+    top: 89.98716302952504%;
+    left: 23.919753086419753%;
+    z-index: 10;
+}
+#starkillerlabel {
+    position: absolute;
+    top: 29.541335044929393%;
+    right: 90.31481481481481%;
+    z-index: 10;
+    width: 90px;
 }
 #datooine {
     position: absolute;
-    left: 125px;
-    top: 14px;
+    top: 16.944801026957638%;
+    left: 37.34567901234568%;
+    z-index: 10;
+}
+#datooinelabel {
+    position: absolute;
+    top: 16.68806161745828%;
+    left: 40.4320987654321%;
+    z-index: 10;
+}
+#yavin {
+    position: absolute;
+    top: 22.464698331193837%;
+    left: 64.6604938271605%;
+    z-index: 10;
+}
+#yavinlabel {
+    position: absolute;
+    top: 22.33632862644416%;
+    left: 67.5925925925926%;
+    z-index: 10;
+}
+#stygeonprime {
+    position: absolute;
+    top: 26.572528883183566%;
+    left: 76.85185185185185%;
+    z-index: 10;
+}
+#stygeonprimelabel {
+    position: absolute;
+    top: 26.31578947368421%;
+    left: 62.808641975308646%;
+    z-index: 10;
+}
+#kessel {
+    position: absolute;
+    top: 29.653401797175867%;
+    left: 79.4753086419753%;
+    z-index: 10;
+}
+#kessellabel {
+    position: absolute;
+    top: 29.52503209242619%;
+    left: 82.09876543209876%;
+    z-index: 10;
+}
+#dagobah {
+    position: absolute;
+    top: 85.75096277278563%;
+    left: 47.22222222222222%;
+    z-index: 10;
+}
+#dagobahlabel {
+    position: absolute;
+    top: 85.62259306803594%;
+    left: 38.117283950617285%;
+    z-index: 10;
 }
 #agamar {
     position: absolute;
-    top: 25px;
-    left: 155px;
+    top: 24.133504492939668%;
+    left: 38.58024691358025%;
+    z-index: 10;
 }
-#endor {
+#agamarlabel {
     position: absolute;
-    top: 340px;
-    left: 25px;
-}
-#bepsin {
-    position: absolute;
-    top: 393px;
-    left: 85px;
-}
-#hoth {
-    position: absolute;
-    top: 393px;
-    left: 108px;
-}
-#crait {
-    position: absolute;
-    top: 363px;
-    left: 190px;
-}
-#dqar {
-    position: absolute;
-    top: 365px;
-    left: 230px;
-}
-#geonosis {
-    position: absolute;
-    top: 340px;
-    left: 315px;
-}
-#tattoine {
-    position: absolute;
-    top: 320px;
-    left: 335px;
+    top: 24.005134788189988%;
+    left: 30.09259259259259%;
+    z-index: 10;
 }
 #scariff {
     position: absolute;
-    top: 260px;
-    left: 365px;
+    top: 62.51604621309371%;
+    left: 77.17283950617285%;
+    z-index: 10;
+}
+#scarifflabel {
+    position: absolute;
+    top: 62.38767650834403%;
+    left: 80.17901234567901%;
+    z-index: 10;
+}
+#tatooine {
+    position: absolute;
+    top: 71.2451861360719%;
+    left: 73.31481481481481%;
+    z-index: 10;
+}
+#tatooinelabel {
+    position: absolute;
+    top: 71.1168164313222%;
+    left: 76.16666666666666%;
+    z-index: 10;
+}
+#geonosis {
+    position: absolute;
+    top: 74.58279845956355%;
+    right: 24.845679012345677%;
+    z-index: 10;
+}
+#geonosislabel {
+    position: absolute;
+    top: 74.58279845956355%;
+    right: 27.623456790123456%;
+    z-index: 10;
+}
+#dqar {
+    position: absolute;
+    top: 77.92041078305519%;
+    right: 40.89506172839506%;
+    z-index: 10;
+}
+#dqarlabel {
+    position: absolute;
+    top: 77.92041078305519%;
+    right: 33.48765432098765%;
+    z-index: 10;
+}
+#crait {
+    position: absolute;
+    top: 77.40693196405648%;
+    right: 48.148148148148145%;
+    z-index: 10;
+}
+#craitlabel {
+    position: absolute;
+    top: 77.27856225930681%;
+    right: 50.92592592592593%;
+    z-index: 10;
+}
+#hoth {
+    position: absolute;
+    top: 81.38639281129653%;
+    right: 64.81481481481481%;
+    z-index: 10;
+}
+#hothlabel {
+    position: absolute;
+    top: 81.25802310654684%;
+    right: 58.64197530864198%;
+    z-index: 10;
+}
+#bespin {
+    position: absolute;
+    top: 81.38639281129653%;
+    right: 68.67283950617285%;
+    z-index: 10;
+}
+#bespinlabel {
+    position: absolute;
+    top: 81.25802310654684%;
+    right: 71.75925925925925%;
+    z-index: 10;
+}
+#endor {
+    position: absolute;
+    top: 73.17073170731707%;
+    right: 81.78395061728395%;
+    z-index: 10;
+}
+#endorlabel {
+    position: absolute;
+    top: 73.0423620025674%;
+    right: 84.6358024691358%;
+    z-index: 10;
 }
 #dathomir {
     position: absolute;
-    top: 10px;
-    left: 180px;
+    top: 26.059050064184852%;
+    right: 49.148148148148145%;
+    z-index: 10;
+}
+#dathomirlabel {
+    position: absolute;
+    top: 25.930680359435172%;
+    right: 39.96913580246913%;
+    z-index: 10;
 }
 #krownest {
     position: absolute;
-    top: 28px;
-    left: 240px;
+    top: 29.781771501925547%;
+    right: 35.95679012345679%;
+    z-index: 10;
+}
+#krownestlabel {
+    position: absolute;
+    top: 29.653401797175867%;
+    right: 38.96296296296296%;
+    z-index: 10;
 }
 #concorddawn {
     position: absolute;
-    top: 35px;
-    left: 250px;
+    top: 32.165468549422338%;
+    right: 34.10493827160494%;
+    z-index: 10;
 }
-#waboni {
+#concorddawnlabel {
     position: absolute;
-    top: 85px;
-    left: 300px;
-}
-#naboo {
-    position: absolute;
-    top: 324px;
-    left: 215px;
-}
-#jedha {
-    position: absolute;
-    top: 90px;
-    left: 11px;
-}
-#shili {
-    position: absolute;
-    top: 30px;
-    left: 120px;
+    top: 32.065468549422338%;
+    right: 19.51111111111111%;
+    z-index: 10;
 }
 #mandalore {
     position: absolute;
-    top: 20px;
-    left: 233px;
+    top: 32.73427471116817%;
+    right: 37.03086419753087%;
+    z-index: 10;
+}
+#mandalorelabel {
+    position: absolute;
+    top: 32.47753530166881%;
+    right: 39.882716049382715%;
+    z-index: 10;
+}
+#wobani {
+    position: absolute;
+    top: 36.84210526315789%;
+    right: 28.154320987654323%;
+    z-index: 10;
+}
+#wobanilabel {
+    position: absolute;
+    top: 36.71373555840822%;
+    right: 19.746913580246915%;
+    z-index: 10;
+}
+#naboo {
+    position: absolute;
+    top: 73.19768934531452%;
+    right: 40.89506172839506%;
+    z-index: 10;
+}
+#naboolabel {
+    position: absolute;
+    top: 73.06931964056483%;
+    right: 43.592592592592595%;
+    z-index: 10;
+}
+#jedha {
+    position: absolute;
+    top: 37.09884467265726%;
+    right: 81.24074074074075%;
+    z-index: 10;
+}
+#jedhalabel {
+    position: absolute;
+    top: 36.97047496790758%;
+    right: 74.33333333333334%;
+    z-index: 10;
+}
+#shill {
+    position: absolute;
+    top: 31.964056482670088%;
+    right: 59.01234567901234%;
+    z-index: 10;
+}
+#shilllabel {
+    position: absolute;
+    top: 31.835686777920415%;
+    right: 61.70987654320988%;
+    z-index: 10;
 }
 #kashyyk {
     position: absolute;
-    top: 90px;
-    left: 250px;
+    top: 43.949935815147626%;
+    right: 35.33333333333333%;
+    z-index: 10;
 }
-#onderon {
+#kashyyklabel {
     position: absolute;
-    top: 80px;
-    left: 180px;
+    top: 43.821566110397946%;
+    right: 26.780246913580247%;
+    z-index: 10;
 }
 .alderan {
     position: absolute;
-    top: 125px;
-    left: 240px;
+    top: 50.06418485237484%;
+    right: 36.0246913580247%;
+    z-index: 10;
 }
 #alderanintact {
-    visibility: hidden;
+    display: none;
 }
-#takadona {
+#alderandestroyed {
+    border: dotted black 1px;
+    border-radius: 50%;
+}
+#alderanlabel {
     position: absolute;
-    top: 235px;
-    left: 60px;
+    top: 50.06418485237484%;
+    right: 39.376543209876544%;
+    z-index: 10;
+}
+#takodana {
+    position: absolute;
+    top: 65.59691912708601%;
+    right: 70.37037037037037%;
+    z-index: 10;
+}
+#takodanalabel {
+    position: absolute;
+    top: 65.59691912708601%;
+    right: 59.96296296296296%;
+    z-index: 10;
 }
 #jakku {
     position: absolute;
-    top: 180px;
-    left: 20px;
+    top: 55.71245186136073%;
+    right: 77.92592592592592%;
+    z-index: 10;
+}
+#jakkulabel {
+    position: absolute;
+    top: 55.58408215661104%;
+    right: 80.77777777777779%;
+    z-index: 10;
+}
+#onderon {
+    position: absolute;
+    top: 41.46341463414634%;
+    right: 43.05555555555556%;
+    z-index: 10;
+}
+#onderonlabel {
+    position: absolute;
+    top: 41.206675224646986%;
+    right: 45.86172839506173%;
+    z-index: 10;
 }
 #coruscant {
     position: absolute;
-    top: 10px;
-    left: 30px;
+    top: 40.821566110397946%;
+    right: 65.17407407407407%;
+    z-index: 10;
+}
+#coruscantlabel {
+    position: absolute;
+    top: 40.693196405648266%;
+    right: 68.580246913580254%;
+    z-index: 10;
 }
 #hosnianprime {
     position: absolute;
-    top: 65px;
-    left: 70px;
+    top: 54.04364569961489%;
+    right: 57.35185185185185%;
+    z-index: 10;
+    border: dotted black 1px;
+    border-radius: 50%;
 }
-#slider {
+#hosnianprimelabel {
+    position: absolute;
+    top: 54.01527599486521%;
+    right: 60.70370370370371%;
+    z-index: 10;
+}
+/* #slider {
     width: 48.94px;
     height: 458px;
     position: absolute;
-    right: 32.14px;
-    top: 169.45px;
+    right: 40.9px;
+    top: 54px;
     display: block;
     float: right;
     border-radius: 33.5px;
     background-color: rgba(216, 216, 216, 0.2);
+} */
+.episodescroll {
+    color:#F8E71C;
+    text-align: center;
+    font-family: 'ITC Serif Gothic Std';
+    font-size: 30px;
+    margin: 0;
+    padding-bottom: 5px;
+}
+#solo {
+    font-size: 15px;
+}
+#footer {
+    font-family: 'ITC Serif Gothic Std';
+    font-size: 55px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: -0.7px;
+    text-align: center;
+    color: #f8e71c;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin: 0;
 }

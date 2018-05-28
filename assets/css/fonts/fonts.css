@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'ITC Serif Gothic Std';
+    src: url('./files/SerifGothicStd.woff2') format('woff2'),
+        url('./files/SerifGothicStd.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SF Distant Galaxy';
+    src: url('SFDistantGalaxy.woff2') format('woff2'),
+        url('SFDistantGalaxy.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Calamity';
+    src: url('Calamity-Bold.woff2') format('woff2'),
+        url('Calamity-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
