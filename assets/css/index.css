@@ -34,11 +34,45 @@ body, html {
     display: block;
     position: relative;
     top: 2%;
-    height: 76%;
-    width: 33%;
+    height: 580px;
+    width: 476px;
     margin: auto;
     z-index: 0;
-    border: white solid 3px;
+}
+#slider {
+    width: 48.94px;
+    height: 580px;
+    position: absolute;
+    right: 41px;
+    top: 100px;
+    border-radius: 33.5px;
+}
+.episodescroll {
+    color:#F8E71C;
+    text-align: center;
+    font-family: 'ITC Serif Gothic Std';
+    font-size: 35px;
+    margin: 0;
+    padding: 10px 0 5px 0;
+}
+#solo {
+    font-size: 20px;
+}
+#footer {
+    font-family: 'ITC Serif Gothic Std';
+    font-size: 55px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: -0.7px;
+    text-align: center;
+    color: #f8e71c;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin: 0;
 }
 #layer9 {
     height: 100%;
@@ -656,42 +690,4 @@ body, html {
     top: 54.01527599486521%;
     right: 60.70370370370371%;
     z-index: 10;
-}
-/* #slider {
-    width: 48.94px;
-    height: 458px;
-    position: absolute;
-    right: 40.9px;
-    top: 54px;
-    display: block;
-    float: right;
-    border-radius: 33.5px;
-    background-color: rgba(216, 216, 216, 0.2);
-} */
-.episodescroll {
-    color:#F8E71C;
-    text-align: center;
-    font-family: 'ITC Serif Gothic Std';
-    font-size: 30px;
-    margin: 0;
-    padding-bottom: 5px;
-}
-#solo {
-    font-size: 15px;
-}
-#footer {
-    font-family: 'ITC Serif Gothic Std';
-    font-size: 55px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: -0.7px;
-    text-align: center;
-    color: #f8e71c;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    margin: 0;
 }

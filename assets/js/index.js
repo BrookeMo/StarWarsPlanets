@@ -7,11 +7,11 @@ $('#space').mousemove(function (e) {
 
 $("#episode1").hover(
     function () {
-        $(".noepisode").hide();
+        $(".rogueone").hide();
+        $(".rebels").hide();
         $(".episode2").hide();
         $(".episode3").hide();
         $(".episode4").hide();
-        $("#yavin").hide();
         $(".episode5").hide();
         $(".episode6").hide();
         $(".episode7").hide();
@@ -19,25 +19,26 @@ $("#episode1").hover(
         $(".episode1").show();
     },
     function () {
-        $(".noepisode").show();
+        $(".rogueone").show();
+        $(".rebels").show();
         $(".episode2").show();
         $(".episode3").show();
         $(".episode4").show();
-        $("#yavin").show();
         $(".episode5").show();
         $(".episode6").show();
         $(".episode7").show();
         $(".episode8").show();
+        $("#alderanintact").hide();
     }
 );
 
 $("#episode2").hover(
     function () {
-        $(".noepisode").hide();
+        $(".rogueone").hide();
+        $(".rebels").hide();
         $(".episode1").hide();
         $(".episode3").hide();
         $(".episode4").hide();
-        $("#yavin").hide();
         $(".episode5").hide();
         $(".episode6").hide();
         $(".episode7").hide();
@@ -45,24 +46,25 @@ $("#episode2").hover(
         $(".episode2").show();
     },
     function () {
-        $(".noepisode").show();
+        $(".rogueone").show();
+        $(".rebels").show();
         $(".episode1").show();
         $(".episode3").show();
         $(".episode4").show();
-        $("#yavin").show();
         $(".episode5").show();
         $(".episode6").show();
         $(".episode7").show();
         $(".episode8").show();
+        $("#alderanintact").hide();
     }
 );
 $("#episode3").hover(
     function () {
-        $(".noepisode").hide();
+        $(".rogueone").hide();
+        $(".rebels").hide();
         $(".episode1").hide();
         $(".episode2").hide();
         $(".episode4").hide();
-        $("#yavin").hide();
         $(".episode5").hide();
         $(".episode6").hide();
         $(".episode7").hide();
@@ -70,20 +72,22 @@ $("#episode3").hover(
         $(".episode3").show();
     },
     function () {
-        $(".noepisode").show();
+        $(".rogueone").show();
+        $(".rebels").show();
         $(".episode1").show();
         $(".episode2").show();
         $(".episode4").show();
-        $("#yavin").show();
         $(".episode5").show();
         $(".episode6").show();
         $(".episode7").show();
         $(".episode8").show();
+        $("#alderanintact").hide();
     }
 );
 $("#episode4").hover(
     function () {
-        $(".noepisode").hide();
+        $(".rogueone").hide();
+        $(".rebels").hide();
         $(".episode1").hide();
         $(".episode2").hide();
         $(".episode3").hide();
@@ -94,23 +98,25 @@ $("#episode4").hover(
         $(".episode4").show();
     },
     function () {
-        $(".noepisode").show();
-        $(".episode1").show();
+        $(".rogueone").show();
+        $(".rebels").show();
         $(".episode2").show();
         $(".episode3").show();
+        $(".episode4").show();
         $(".episode5").show();
         $(".episode6").show();
         $(".episode7").show();
         $(".episode8").show();
+        $("#alderanintact").hide();
     }
 );
 $("#episode5").hover(
     function () {
-        $(".noepisode").hide();
+        $(".rogueone").hide();
+        $(".rebels").hide();
         $(".episode1").hide();
         $(".episode2").hide();
         $(".episode3").hide();
-        $("#yavin").hide();
         $(".episode4").hide();
         $(".episode6").hide();
         $(".episode7").hide();
@@ -118,24 +124,25 @@ $("#episode5").hover(
         $(".episode5").show();
     },
     function () {
-        $(".noepisode").show();
+        $(".rogueone").show();
+        $(".rebels").show();
         $(".episode1").show();
         $(".episode2").show();
         $(".episode3").show();
-        $("#yavin").show();
         $(".episode4").show();
         $(".episode6").show();
         $(".episode7").show();
         $(".episode8").show();
+        $("#alderanintact").hide();
     }
 );
 $("#episode6").hover(
     function () {
-        $(".noepisode").hide();
+        $(".rogueone").hide();
+        $(".rebels").hide();
         $(".episode1").hide();
         $(".episode2").hide();
         $(".episode3").hide();
-        $("#yavin").hide();
         $(".episode4").hide();
         $(".episode5").hide();
         $(".episode7").hide();
@@ -143,24 +150,25 @@ $("#episode6").hover(
         $(".episode6").show();
     },
     function () {
-        $(".noepisode").show();
+        $(".rogueone").show();
+        $(".rebels").show();
         $(".episode1").show();
         $(".episode2").show();
         $(".episode3").show();
-        $("#yavin").show();
         $(".episode4").show();
         $(".episode5").show();
         $(".episode7").show();
         $(".episode8").show();
+        $("#alderanintact").hide();
     }
 );
 $("#episode7").hover(
     function () {
-        $(".noepisode").hide();
+        $(".rogueone").hide();
+        $(".rebels").hide();
         $(".episode1").hide();
         $(".episode2").hide();
         $(".episode3").hide();
-        $("#yavin").hide();
         $(".episode4").hide();
         $(".episode5").hide();
         $(".episode6").hide();
@@ -168,24 +176,25 @@ $("#episode7").hover(
         $(".episode7").show();
     },
     function () {
-        $(".noepisode").show();
+        $(".rogueone").show();
+        $(".rebels").show();
         $(".episode1").show();
         $(".episode2").show();
         $(".episode3").show();
-        $("#yavin").show();
         $(".episode4").show();
         $(".episode5").show();
         $(".episode6").show();
         $(".episode8").show();
+        $("#alderanintact").hide();
     }
 );
 $("#episode8").hover(
     function () {
-        $(".noepisode").hide();
+        $(".rogueone").hide();
+        $(".rebels").hide();
         $(".episode1").hide();
         $(".episode2").hide();
         $(".episode3").hide();
-        $("#yavin").hide();
         $(".episode4").hide();
         $(".episode5").hide();
         $(".episode6").hide();
@@ -193,14 +202,53 @@ $("#episode8").hover(
         $(".episode8").show();
     },
     function () {
-        $(".noepisode").show();
+        $(".rogueone").show();
+        $(".rebels").show();
         $(".episode1").show();
         $(".episode2").show();
         $(".episode3").show();
-        $("#yavin").show();
         $(".episode4").show();
         $(".episode5").show();
         $(".episode6").show();
         $(".episode7").show();
+        $("#alderanintact").hide();
     }
 );
+$("#rogueone").hover(
+    function () {
+        $(".rebels").hide();
+        $(".episode1").hide();
+        $(".episode2").hide();
+        $(".episode3").hide();
+        $(".episode4").hide();
+        $(".episode5").hide();
+        $(".episode6").hide();
+        $(".episode7").hide();
+        $(".episode8").hide();
+        $(".rogueone").show();
+    },
+    function () {
+        $(".rebels").show();
+        $("episode1").show();
+        $(".episode2").show();
+        $(".episode3").show();
+        $(".episode4").show();
+        $(".episode5").show();
+        $(".episode6").show();
+        $(".episode7").show();
+        $(".episode8").show();
+        $("#alderanintact").hide();
+    }
+);
+$("#episode1").click(function(){
+    $(".rogueone").hide();
+    $(".rebels").hide();
+    $(".episode2").hide();
+    $(".episode3").hide();
+    $(".episode4").hide();
+    $(".episode5").hide();
+    $(".episode6").hide();
+    $(".episode7").hide();
+    $(".episode8").hide();
+    $(".episode1").show();
+});
