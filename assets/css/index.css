@@ -691,3 +691,51 @@ body, html {
     right: 60.70370370370371%;
     z-index: 10;
 }
+#savareen {
+    position: absolute;
+    top: 34.071887034659824%;
+    right: 2.4691358024691357%;
+    z-index: 10;
+}
+#savareenlabel {
+    position: absolute;
+    top: 34.071887034659824%;
+    left: 98.5%;
+    z-index: 10;
+}
+#mimban {
+    position: absolute;
+    top: 46.98472400513479%;
+    right: 36.13333333333333%;
+    z-index: 10;
+}
+#mimbanlabel {
+    position: absolute;
+    top: 46.95635430038511%;
+    right: 27.854320987654323%;
+    z-index: 10;
+}
+#vandor {
+    position: absolute;
+    top: 64.31322207958921%;
+    right: 44.75308641975309%;
+    z-index: 10;
+}
+#vandorlabel {
+    position: absolute;
+    top: 64.05648267008985%;
+    right: 37.34567901234568%;
+    z-index: 10;
+}
+#corella {
+    position: absolute;
+    top: 48.52374839537869%;
+    right: 56.697530864197525%;
+    z-index: 10;
+}
+#corellalabel {
+    position: absolute;
+    top: 48.19537869062901%;
+    right: 49.01851851851852%;
+    z-index: 10;
+}
