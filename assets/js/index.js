@@ -18,6 +18,7 @@ $("#episode1").hover(
         $(".episode7").hide();
         $(".episode8").hide();
         $(".episode1").show();
+        $("#footer").html("episode one planets");
     },
     function () {
         $(".rogueone").show();
@@ -31,6 +32,7 @@ $("#episode1").hover(
         $(".episode7").show();
         $(".episode8").show();
         $("#alderanintact").hide();
+        $("#footer").html("all planets");
     }
 );
 
@@ -47,6 +49,7 @@ $("#episode2").hover(
         $(".episode7").hide();
         $(".episode8").hide();
         $(".episode2").show();
+        $("#footer").html("episode two planets");
     },
     function () {
         $(".rogueone").show();
@@ -60,6 +63,7 @@ $("#episode2").hover(
         $(".episode7").show();
         $(".episode8").show();
         $("#alderanintact").hide();
+        $("#footer").html("all planets");
     }
 );
 $("#episode3").hover(
@@ -75,6 +79,7 @@ $("#episode3").hover(
         $(".episode7").hide();
         $(".episode8").hide();
         $(".episode3").show();
+        $("#footer").html("episode three planets");
     },
     function () {
         $(".rogueone").show();
@@ -88,6 +93,7 @@ $("#episode3").hover(
         $(".episode7").show();
         $(".episode8").show();
         $("#alderanintact").hide();
+        $("#footer").html("all planets");
     }
 );
 $("#episode4").hover(
@@ -103,6 +109,7 @@ $("#episode4").hover(
         $(".episode7").hide();
         $(".episode8").hide();
         $(".episode4").show();
+        $("#footer").html("episode four planets");
     },
     function () {
         $(".rogueone").show();
@@ -116,6 +123,7 @@ $("#episode4").hover(
         $(".episode7").show();
         $(".episode8").show();
         $("#alderanintact").hide();
+        $("#footer").html("all planets");
     }
 );
 $("#episode5").hover(
@@ -131,6 +139,7 @@ $("#episode5").hover(
         $(".episode7").hide();
         $(".episode8").hide();
         $(".episode5").show();
+        $("#footer").html("episode five planets");
     },
     function () {
         $(".rogueone").show();
@@ -144,6 +153,7 @@ $("#episode5").hover(
         $(".episode7").show();
         $(".episode8").show();
         $("#alderanintact").hide();
+        $("#footer").html("all planets");
     }
 );
 $("#episode6").hover(
@@ -159,6 +169,7 @@ $("#episode6").hover(
         $(".episode7").hide();
         $(".episode8").hide();
         $(".episode6").show();
+        $("#footer").html("episode six planets");
     },
     function () {
         $(".rogueone").show();
@@ -172,6 +183,7 @@ $("#episode6").hover(
         $(".episode7").show();
         $(".episode8").show();
         $("#alderanintact").hide();
+        $("#footer").html("all planets");
     }
 );
 $("#episode7").hover(
@@ -187,6 +199,7 @@ $("#episode7").hover(
         $(".episode6").hide();
         $(".episode8").hide();
         $(".episode7").show();
+        $("#footer").html("episode seven planets");
     },
     function () {
         $(".rogueone").show();
@@ -200,6 +213,7 @@ $("#episode7").hover(
         $(".episode6").show();
         $(".episode8").show();
         $("#alderanintact").hide();
+        $("#footer").html("all planets");
     }
 );
 $("#episode8").hover(
@@ -215,6 +229,7 @@ $("#episode8").hover(
         $(".episode6").hide();
         $(".episode7").hide();
         $(".episode8").show();
+        $("#footer").html("episode eight planets");
     },
     function () {
         $(".rogueone").show();
@@ -228,6 +243,7 @@ $("#episode8").hover(
         $(".episode6").show();
         $(".episode7").show();
         $("#alderanintact").hide();
+        $("#footer").html("all planets");
     }
 );
 $("#rogueone").hover(
@@ -243,6 +259,7 @@ $("#rogueone").hover(
         $(".episode7").hide();
         $(".episode8").hide();
         $(".rogueone").show();
+        $("#footer").html("rogue one planets");
     },
     function () {
         $(".rebels").show();
@@ -256,6 +273,7 @@ $("#rogueone").hover(
         $(".episode7").show();
         $(".episode8").show();
         $("#alderanintact").hide();
+        $("#footer").html("all planets");
     }
 );
 $("#solo").hover(
@@ -271,6 +289,7 @@ $("#solo").hover(
         $(".episode7").hide();
         $(".episode8").hide();
         $(".solo").show();
+        $("#footer").html("solo planets");
     },
     function () {
         $(".rebels").show();
@@ -284,5 +303,6 @@ $("#solo").hover(
         $(".episode7").show();
         $(".episode8").show();
         $("#alderanintact").hide();
+        $("#footer").html("all planets");
     }
 );
