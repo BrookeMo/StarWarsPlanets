@@ -4,16 +4,17 @@ body, html {
 }
 #space {
     overflow: hidden;
-    background-image: url("./images/space.jpg");
+    background-image: url("./images/space.png");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: auto 100%;
     position: fixed;
     top: 0;
-    height: 100%;
     width: 100%;
+    min-height: 100vh;
+    height: 100%;
     z-index: 0;
-    background-size: calc(100% + 10%);
+    background-size: 120% 120%;
     display: flex;
     justify-content: center;
 }
@@ -44,7 +45,7 @@ body, html {
     height: 580px;
     position: absolute;
     right: 41px;
-    top: 100px;
+    top: 120px;
     border-radius: 33.5px;
 }
 .episodescroll {
