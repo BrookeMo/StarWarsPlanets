@@ -54,6 +54,12 @@ body, html {
     margin: auto;
     z-index: 0;
 }
+@media only screen and (max-width: 425px) {
+    #map {
+        height: 348px;
+        width: 285.6px;
+    }
+}
 #slider {
     width: 48.94px;
     height: 580px;
@@ -158,6 +164,11 @@ body, html {
 .planet {
     width: 10px;
 }
+@media only screen and (max-width: 425px) {
+    .planet {
+        width: 6;
+    }
+}
 #cantonica {
     position: absolute;
     top: 12.195121951219512%;
@@ -207,6 +218,13 @@ body, html {
     text-align: center;
     color: #000000;
     background-color: white;
+}
+@media only screen and (max-width: 425px) {
+    .label {
+        height: 6px;
+        padding: 1.2px 1.2px 0px 1.2px;
+        font-size: 4.8px;
+    }
 }
 #cantonicalabel {
     position: absolute;
@@ -352,6 +370,11 @@ body, html {
     right: 90.31481481481481%;
     z-index: 10;
     width: 90px;
+}
+@media only screen and (max-width: 425px) {
+    #starkillerlabel {
+        width: 54px;
+    }
 }
 #datooine {
     position: absolute;
