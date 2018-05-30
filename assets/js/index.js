@@ -13,15 +13,14 @@ $(".episodescroll").click(
     function () {
         var isClicked = $(this).hasClass('clicked');
         if (isClicked) {
-            $(this).css("opacity", ".5");
             $(this).removeClass("clicked");
         }
         else {
-            $(this).toggleClass('clicked');
-            $(this).css("opacity", "1");
+            $('.episodescroll').not(this).removeClass('clicked');
+            $('.episodescroll').not(this).css('opacity', '.5');
+            $(this).addClass('clicked');
         }
     });
-
 $("#episode1").hover(
     function () {
         var isClicked = $(this).hasClass('clicked');
