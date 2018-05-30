@@ -4,18 +4,23 @@ $('#space').mousemove(function (e) {
     $(this).css('background-position', amountMovedX + 'px ' + amountMovedY + 'px');
 });
 
+$("#title").click(
+    function () {
+        location.reload();
+    });
+
 $(".episodescroll").click(
     function () {
-    var isClicked = $(this).hasClass('clicked');
-    if (isClicked) {
-        $(this).css("opacity", ".5");
-        $(this).removeClass("clicked");
-    }
-    else {
-    $(this).toggleClass('clicked');
-    $(this).css("opacity", "1");
-    }
-});
+        var isClicked = $(this).hasClass('clicked');
+        if (isClicked) {
+            $(this).css("opacity", ".5");
+            $(this).removeClass("clicked");
+        }
+        else {
+            $(this).toggleClass('clicked');
+            $(this).css("opacity", "1");
+        }
+    });
 
 $("#episode1").hover(
     function () {
@@ -33,6 +38,7 @@ $("#episode1").hover(
             $(".episode8").hide();
             $(".episode1").show();
             $("#footer").html("episode one planets");
+            $(this).css("opacity", "1");
         }
     },
     function () {
@@ -50,6 +56,7 @@ $("#episode1").hover(
             $(".episode8").show();
             $("#alderanintact").hide();
             $("#footer").html("all planets");
+            $(this).css("opacity", ".5");
         }
     }
 );
@@ -70,6 +77,8 @@ $("#episode2").hover(
             $(".episode8").hide();
             $(".episode2").show();
             $("#footer").html("episode two planets");
+            $(this).css("opacity", "1");
+
         }
     },
     function () {
@@ -87,6 +96,7 @@ $("#episode2").hover(
             $(".episode8").show();
             $("#alderanintact").hide();
             $("#footer").html("all planets");
+            $(this).css("opacity", ".5");
         }
     }
 );
@@ -106,6 +116,7 @@ $("#episode3").hover(
             $(".episode8").hide();
             $(".episode3").show();
             $("#footer").html("episode three planets");
+            $(this).css("opacity", "1");
         }
     },
     function () {
@@ -123,6 +134,7 @@ $("#episode3").hover(
             $(".episode8").show();
             $("#alderanintact").hide();
             $("#footer").html("all planets");
+            $(this).css("opacity", ".5");
         }
     }
 );
@@ -142,6 +154,7 @@ $("#episode4").hover(
             $(".episode8").hide();
             $(".episode4").show();
             $("#footer").html("episode four planets");
+            $(this).css("opacity", "1");
         }
     },
     function () {
@@ -159,6 +172,7 @@ $("#episode4").hover(
             $(".episode8").show();
             $("#alderanintact").hide();
             $("#footer").html("all planets");
+            $(this).css("opacity", ".5");
         }
     }
 );
@@ -178,6 +192,7 @@ $("#episode5").hover(
             $(".episode8").hide();
             $(".episode5").show();
             $("#footer").html("episode five planets");
+            $(this).css("opacity", "1");
         }
     },
     function () {
@@ -195,6 +210,7 @@ $("#episode5").hover(
             $(".episode8").show();
             $("#alderanintact").hide();
             $("#footer").html("all planets");
+            $(this).css("opacity", ".5");
         }
     }
 );
@@ -214,6 +230,7 @@ $("#episode6").hover(
             $(".episode8").hide();
             $(".episode6").show();
             $("#footer").html("episode six planets");
+            $(this).css("opacity", "1");
         }
     },
     function () {
@@ -231,6 +248,7 @@ $("#episode6").hover(
             $(".episode8").show();
             $("#alderanintact").hide();
             $("#footer").html("all planets");
+            $(this).css("opacity", ".5");
         }
     }
 );
@@ -250,6 +268,7 @@ $("#episode7").hover(
             $(".episode8").hide();
             $(".episode7").show();
             $("#footer").html("episode seven planets");
+            $(this).css("opacity", "1");
         }
     },
     function () {
@@ -267,6 +286,7 @@ $("#episode7").hover(
             $(".episode8").show();
             $("#alderanintact").hide();
             $("#footer").html("all planets");
+            $(this).css("opacity", ".5");
         }
     }
 );
@@ -286,6 +306,7 @@ $("#episode8").hover(
             $(".episode7").hide();
             $(".episode8").show();
             $("#footer").html("episode eight planets");
+            $(this).css("opacity", "1");
         }
     },
     function () {
@@ -303,6 +324,7 @@ $("#episode8").hover(
             $(".episode7").show();
             $("#alderanintact").hide();
             $("#footer").html("all planets");
+            $(this).css("opacity", ".5");
         }
     }
 );
@@ -322,6 +344,7 @@ $("#rogueone").hover(
             $(".episode8").hide();
             $(".rogueone").show();
             $("#footer").html("rogue one planets");
+            $(this).css("opacity", "1");
         }
     },
     function () {
@@ -339,6 +362,7 @@ $("#rogueone").hover(
             $(".episode8").show();
             $("#alderanintact").hide();
             $("#footer").html("all planets");
+            $(this).css("opacity", ".5");
         }
     }
 );
@@ -358,6 +382,7 @@ $("#solo").hover(
             $(".episode8").hide();
             $(".solo").show();
             $("#footer").html("solo planets");
+            $(this).css("opacity", "1");
         }
     },
     function () {
@@ -375,6 +400,7 @@ $("#solo").hover(
             $(".episode8").show();
             $("#alderanintact").hide();
             $("#footer").html("all planets");
+            $(this).css("opacity", ".5");
         }
     }
 );
