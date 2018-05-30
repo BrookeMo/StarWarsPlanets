@@ -166,7 +166,7 @@ body, html {
 }
 @media only screen and (max-width: 425px) {
     .planet {
-        width: 6;
+        width: 6px;
     }
 }
 #cantonica {

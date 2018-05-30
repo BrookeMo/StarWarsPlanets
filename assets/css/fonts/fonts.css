@@ -1,21 +1,35 @@
 @font-face {
-    font-family: 'ITC Serif Gothic Std';
-    src: url('./files/SerifGothicStd.woff2') format('woff2'),
-        url('./files/SerifGothicStd.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
     font-family: 'SF Distant Galaxy';
-    src: url('SFDistantGalaxy.woff2') format('woff2'),
-        url('SFDistantGalaxy.woff') format('woff');
+    src: url('./files/SFDistantGalaxy.eot');
+    src: url('./files/SFDistantGalaxy.eot?#iefix') format('embedded-opentype'),
+        url('./files/SFDistantGalaxy.woff2') format('woff2'),
+        url('./files/SFDistantGalaxy.woff') format('woff'),
+        url('./files/SFDistantGalaxy.ttf') format('truetype'),
+        url('./files/SFDistantGalaxy.svg#SFDistantGalaxy') format('svg');
     font-weight: normal;
     font-style: normal;
 }
+
+@font-face {
+    font-family: 'ITC Serif Gothic Std';
+    src: url('./files/SerifGothicStd.eot');
+    src: url('./files/SerifGothicStd.eot?#iefix') format('embedded-opentype'),
+        url('./files/SerifGothicStd.woff2') format('woff2'),
+        url('./files/SerifGothicStd.woff') format('woff'),
+        url('./files/SerifGothicStd.ttf') format('truetype'),
+        url('./files/SerifGothicStd.svg#SerifGothicStd') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
 @font-face {
     font-family: 'Calamity';
-    src: url('Calamity-Bold.woff2') format('woff2'),
-        url('Calamity-Bold.woff') format('woff');
+    src: url('./files/Calamity-Bold.eot');
+    src: url('./files/Calamity-Bold.eot?#iefix') format('embedded-opentype'),
+        url('./files/Calamity-Bold.woff2') format('woff2'),
+        url('./files/Calamity-Bold.woff') format('woff'),
+        url('./files/Calamity-Bold.ttf') format('truetype'),
+        url('./files/Calamity-Bold.svg#Calamity-Bold') format('svg');
     font-weight: bold;
     font-style: normal;
 }
