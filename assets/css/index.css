@@ -97,6 +97,33 @@ body, html {
 .clicked {
     opacity: 1;
 }
+#mobileslider {
+    display: none;
+    width: 327px;
+    height: 49px;
+    border-radius: 24.5px;
+    background-color: #000000;
+    border: solid 1px #f8e71c;
+    position: absolute;
+    bottom: 5%;
+}
+.mobilescroll {
+    display: none;
+}
+.mobilebutton {
+    display: none;
+    width: 12px;
+    height: 21px;
+    color: #f8e71c;
+}
+@media only screen and (max-width: 425px) {
+    #mobileslider {
+        display: block;
+    }
+    .mobilebutton {
+        display: block;
+    }
+}
 #solo {
     font-size: 20px;
 }
