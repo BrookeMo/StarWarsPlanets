@@ -61,6 +61,7 @@ body, html {
     #map {
         height: 348px;
         width: 285.6px;
+        top: 0%;
     }
 }
 #slider {
@@ -79,6 +80,14 @@ body, html {
     margin: 0;
     padding: 10px 0 5px 0;
     opacity: .5;
+}
+@media only screen and (max-width: 425px) {
+    .slider {
+        display: none;
+    }
+    .episodescroll {
+        display: none;
+    }
 }
 .episodescroll:hover {
     opacity: 1;
