@@ -14,6 +14,7 @@ $(".episodescroll").click(
         var isClicked = $(this).hasClass('clicked');
         if (isClicked) {
             $(this).removeClass("clicked");
+            $(this).css("opacity", ".5");
         }
         else {
             $('.episodescroll').not(this).removeClass('clicked');
@@ -33,8 +34,71 @@ $("#episode1").hover(
         }
     },
     function () {
-        var isClicked = $(this).hasClass('clicked');
-        if (!isClicked) {
+        var isClicked = $(".episodescroll").hasClass('clicked');
+        if ($("#episode2").hasClass('clicked')) {
+            $(".planet").hide();
+            $(".label").hide();
+            $(".episode2").show();
+            $("#footer").html("episode two planets");
+            $(this).css("opacity", ".5");
+        }
+        else if ($("#episode3").hasClass('clicked')) {
+            $(".planet").hide();
+            $(".label").hide();
+            $(".episode3").show();
+            $("#footer").html("episode three planets");
+            $(this).css("opacity", ".5");
+        }
+        else if ($("#episode4").hasClass('clicked')) {
+            $(".planet").hide();
+            $(".label").hide();
+            $(".episode4").show();
+            $("#footer").html("episode four planets");
+            $(this).css("opacity", ".5");
+        } 
+        else if ($("#episode5").hasClass('clicked')) {
+            $(".planet").hide();
+            $(".label").hide();
+            $(".episode5").show();
+            $("#footer").html("episode five planets");
+            $(this).css("opacity", ".5");
+        }
+        else if ($("#episode6").hasClass('clicked')) {
+            $(".planet").hide();
+            $(".label").hide();
+            $(".episode6").show();
+            $("#footer").html("episode six planets");
+            $(this).css("opacity", ".5");
+        }
+        else if ($("#episode7").hasClass('clicked')) {
+            $(".planet").hide();
+            $(".label").hide();
+            $(".episode7").show();
+            $("#footer").html("episode seven planets");
+            $(this).css("opacity", ".5");
+        }
+        else if ($("#episode8").hasClass('clicked')) {
+            $(".planet").hide();
+            $(".label").hide();
+            $(".episode8").show();
+            $("#footer").html("episode eight planets");
+            $(this).css("opacity", ".5");
+        }
+        else if ($("#rogueone").hasClass('clicked')) {
+            $(".planet").hide();
+            $(".label").hide();
+            $(".rogueone").show();
+            $("#footer").html("rogue one planets");
+            $(this).css("opacity", ".5");
+        }
+        else if ($("#solo").hasClass('clicked')) {
+            $(".planet").hide();
+            $(".label").hide();
+            $(".solo").show();
+            $("#footer").html("solo planets");
+            $(this).css("opacity", ".5");
+        }
+        else if (!isClicked) {
             $(".planet").show();
             $(".label").show();
             $("#alderanintact").hide();
@@ -53,12 +117,74 @@ $("#episode2").hover(
             $(".episode2").show();
             $("#footer").html("episode two planets");
             $(this).css("opacity", "1");
-
         }
     },
     function () {
-        var isClicked = $(this).hasClass('clicked');
-        if (!isClicked) {
+        var isClicked = $(".episodescroll").hasClass('clicked');
+        if ($("#episode1").hasClass('clicked')) {
+            $(".planet").hide();
+            $(".label").hide();
+            $(".episode1").show();
+            $("#footer").html("episode one planets");
+            $(this).css("opacity", ".5");
+        }
+        else if ($("#episode3").hasClass('clicked')) {
+            $(".planet").hide();
+            $(".label").hide();
+            $(".episode3").show();
+            $("#footer").html("episode three planets");
+            $(this).css("opacity", ".5");
+        }
+        else if ($("#episode4").hasClass('clicked')) {
+            $(".planet").hide();
+            $(".label").hide();
+            $(".episode4").show();
+            $("#footer").html("episode four planets");
+            $(this).css("opacity", ".5");
+        } 
+        else if ($("#episode5").hasClass('clicked')) {
+            $(".planet").hide();
+            $(".label").hide();
+            $(".episode5").show();
+            $("#footer").html("episode five planets");
+            $(this).css("opacity", ".5");
+        }
+        else if ($("#episode6").hasClass('clicked')) {
+            $(".planet").hide();
+            $(".label").hide();
+            $(".episode6").show();
+            $("#footer").html("episode six planets");
+            $(this).css("opacity", ".5");
+        }
+        else if ($("#episode7").hasClass('clicked')) {
+            $(".planet").hide();
+            $(".label").hide();
+            $(".episode7").show();
+            $("#footer").html("episode seven planets");
+            $(this).css("opacity", ".5");
+        }
+        else if ($("#episode8").hasClass('clicked')) {
+            $(".planet").hide();
+            $(".label").hide();
+            $(".episode8").show();
+            $("#footer").html("episode eight planets");
+            $(this).css("opacity", ".5");
+        }
+        else if ($("#rogueone").hasClass('clicked')) {
+            $(".planet").hide();
+            $(".label").hide();
+            $(".rogueone").show();
+            $("#footer").html("rogue one planets");
+            $(this).css("opacity", ".5");
+        }
+        else if ($("#solo").hasClass('clicked')) {
+            $(".planet").hide();
+            $(".label").hide();
+            $(".solo").show();
+            $("#footer").html("solo planets");
+            $(this).css("opacity", ".5");
+        }
+        else if (!isClicked) {
             $(".planet").show();
             $(".label").show();
             $("#alderanintact").hide();
@@ -79,8 +205,71 @@ $("#episode3").hover(
         }
     },
     function () {
-        var isClicked = $(this).hasClass('clicked');
-        if (!isClicked) {
+        var isClicked = $(".episodescroll").hasClass('clicked');
+        if ($("#episode1").hasClass('clicked')) {
+            $(".planet").hide();
+            $(".label").hide();
+            $(".episode1").show();
+            $("#footer").html("episode one planets");
+            $(this).css("opacity", ".5");
+        }
+        else if ($("#episode2").hasClass('clicked')) {
+            $(".planet").hide();
+            $(".label").hide();
+            $(".episode2").show();
+            $("#footer").html("episode two planets");
+            $(this).css("opacity", ".5");
+        }
+        else if ($("#episode4").hasClass('clicked')) {
+            $(".planet").hide();
+            $(".label").hide();
+            $(".episode4").show();
+            $("#footer").html("episode four planets");
+            $(this).css("opacity", ".5");
+        } 
+        else if ($("#episode5").hasClass('clicked')) {
+            $(".planet").hide();
+            $(".label").hide();
+            $(".episode5").show();
+            $("#footer").html("episode five planets");
+            $(this).css("opacity", ".5");
+        }
+        else if ($("#episode6").hasClass('clicked')) {
+            $(".planet").hide();
+            $(".label").hide();
+            $(".episode6").show();
+            $("#footer").html("episode six planets");
+            $(this).css("opacity", ".5");
+        }
+        else if ($("#episode7").hasClass('clicked')) {
+            $(".planet").hide();
+            $(".label").hide();
+            $(".episode7").show();
+            $("#footer").html("episode seven planets");
+            $(this).css("opacity", ".5");
+        }
+        else if ($("#episode8").hasClass('clicked')) {
+            $(".planet").hide();
+            $(".label").hide();
+            $(".episode8").show();
+            $("#footer").html("episode eight planets");
+            $(this).css("opacity", ".5");
+        }
+        else if ($("#rogueone").hasClass('clicked')) {
+            $(".planet").hide();
+            $(".label").hide();
+            $(".rogueone").show();
+            $("#footer").html("rogue one planets");
+            $(this).css("opacity", ".5");
+        }
+        else if ($("#solo").hasClass('clicked')) {
+            $(".planet").hide();
+            $(".label").hide();
+            $(".solo").show();
+            $("#footer").html("solo planets");
+            $(this).css("opacity", ".5");
+        }
+        else if (!isClicked) {
             $(".planet").show();
             $(".label").show();
             $("#alderanintact").hide();
@@ -101,8 +290,71 @@ $("#episode4").hover(
         }
     },
     function () {
-        var isClicked = $(this).hasClass('clicked');
-        if (!isClicked) {
+        var isClicked = $(".episodescroll").hasClass('clicked');
+        if ($("#episode1").hasClass('clicked')) {
+            $(".planet").hide();
+            $(".label").hide();
+            $(".episode1").show();
+            $("#footer").html("episode one planets");
+            $(this).css("opacity", ".5");
+        }
+        else if ($("#episode2").hasClass('clicked')) {
+            $(".planet").hide();
+            $(".label").hide();
+            $(".episode2").show();
+            $("#footer").html("episode two planets");
+            $(this).css("opacity", ".5");
+        }
+        else if ($("#episode3").hasClass('clicked')) {
+            $(".planet").hide();
+            $(".label").hide();
+            $(".episode3").show();
+            $("#footer").html("episode three planets");
+            $(this).css("opacity", ".5");
+        } 
+        else if ($("#episode5").hasClass('clicked')) {
+            $(".planet").hide();
+            $(".label").hide();
+            $(".episode5").show();
+            $("#footer").html("episode five planets");
+            $(this).css("opacity", ".5");
+        }
+        else if ($("#episode6").hasClass('clicked')) {
+            $(".planet").hide();
+            $(".label").hide();
+            $(".episode6").show();
+            $("#footer").html("episode six planets");
+            $(this).css("opacity", ".5");
+        }
+        else if ($("#episode7").hasClass('clicked')) {
+            $(".planet").hide();
+            $(".label").hide();
+            $(".episode7").show();
+            $("#footer").html("episode seven planets");
+            $(this).css("opacity", ".5");
+        }
+        else if ($("#episode8").hasClass('clicked')) {
+            $(".planet").hide();
+            $(".label").hide();
+            $(".episode8").show();
+            $("#footer").html("episode eight planets");
+            $(this).css("opacity", ".5");
+        }
+        else if ($("#rogueone").hasClass('clicked')) {
+            $(".planet").hide();
+            $(".label").hide();
+            $(".rogueone").show();
+            $("#footer").html("rogue one planets");
+            $(this).css("opacity", ".5");
+        }
+        else if ($("#solo").hasClass('clicked')) {
+            $(".planet").hide();
+            $(".label").hide();
+            $(".solo").show();
+            $("#footer").html("solo planets");
+            $(this).css("opacity", ".5");
+        }
+        else if (!isClicked) {
             $(".planet").show();
             $(".label").show();
             $("#alderanintact").hide();
@@ -123,8 +375,71 @@ $("#episode5").hover(
         }
     },
     function () {
-        var isClicked = $(this).hasClass('clicked');
-        if (!isClicked) {
+        var isClicked = $(".episodescroll").hasClass('clicked');
+        if ($("#episode1").hasClass('clicked')) {
+            $(".planet").hide();
+            $(".label").hide();
+            $(".episode1").show();
+            $("#footer").html("episode one planets");
+            $(this).css("opacity", ".5");
+        }
+        else if ($("#episode2").hasClass('clicked')) {
+            $(".planet").hide();
+            $(".label").hide();
+            $(".episode2").show();
+            $("#footer").html("episode two planets");
+            $(this).css("opacity", ".5");
+        }
+        else if ($("#episode3").hasClass('clicked')) {
+            $(".planet").hide();
+            $(".label").hide();
+            $(".episode3").show();
+            $("#footer").html("episode three planets");
+            $(this).css("opacity", ".5");
+        } 
+        else if ($("#episode4").hasClass('clicked')) {
+            $(".planet").hide();
+            $(".label").hide();
+            $(".episode4").show();
+            $("#footer").html("episode four planets");
+            $(this).css("opacity", ".5");
+        }
+        else if ($("#episode6").hasClass('clicked')) {
+            $(".planet").hide();
+            $(".label").hide();
+            $(".episode6").show();
+            $("#footer").html("episode six planets");
+            $(this).css("opacity", ".5");
+        }
+        else if ($("#episode7").hasClass('clicked')) {
+            $(".planet").hide();
+            $(".label").hide();
+            $(".episode7").show();
+            $("#footer").html("episode seven planets");
+            $(this).css("opacity", ".5");
+        }
+        else if ($("#episode8").hasClass('clicked')) {
+            $(".planet").hide();
+            $(".label").hide();
+            $(".episode8").show();
+            $("#footer").html("episode eight planets");
+            $(this).css("opacity", ".5");
+        }
+        else if ($("#rogueone").hasClass('clicked')) {
+            $(".planet").hide();
+            $(".label").hide();
+            $(".rogueone").show();
+            $("#footer").html("rogue one planets");
+            $(this).css("opacity", ".5");
+        }
+        else if ($("#solo").hasClass('clicked')) {
+            $(".planet").hide();
+            $(".label").hide();
+            $(".solo").show();
+            $("#footer").html("solo planets");
+            $(this).css("opacity", ".5");
+        }
+        else if (!isClicked) {
             $(".planet").show();
             $(".label").show();
             $("#alderanintact").hide();
@@ -145,8 +460,71 @@ $("#episode6").hover(
         }
     },
     function () {
-        var isClicked = $(this).hasClass('clicked');
-        if (!isClicked) {
+        var isClicked = $(".episodescroll").hasClass('clicked');
+        if ($("#episode1").hasClass('clicked')) {
+            $(".planet").hide();
+            $(".label").hide();
+            $(".episode1").show();
+            $("#footer").html("episode one planets");
+            $(this).css("opacity", ".5");
+        }
+        else if ($("#episode2").hasClass('clicked')) {
+            $(".planet").hide();
+            $(".label").hide();
+            $(".episode2").show();
+            $("#footer").html("episode two planets");
+            $(this).css("opacity", ".5");
+        }
+        else if ($("#episode3").hasClass('clicked')) {
+            $(".planet").hide();
+            $(".label").hide();
+            $(".episode3").show();
+            $("#footer").html("episode three planets");
+            $(this).css("opacity", ".5");
+        } 
+        else if ($("#episode4").hasClass('clicked')) {
+            $(".planet").hide();
+            $(".label").hide();
+            $(".episode4").show();
+            $("#footer").html("episode four planets");
+            $(this).css("opacity", ".5");
+        }
+        else if ($("#episode5").hasClass('clicked')) {
+            $(".planet").hide();
+            $(".label").hide();
+            $(".episode5").show();
+            $("#footer").html("episode five planets");
+            $(this).css("opacity", ".5");
+        }
+        else if ($("#episode7").hasClass('clicked')) {
+            $(".planet").hide();
+            $(".label").hide();
+            $(".episode7").show();
+            $("#footer").html("episode seven planets");
+            $(this).css("opacity", ".5");
+        }
+        else if ($("#episode8").hasClass('clicked')) {
+            $(".planet").hide();
+            $(".label").hide();
+            $(".episode8").show();
+            $("#footer").html("episode eight planets");
+            $(this).css("opacity", ".5");
+        }
+        else if ($("#rogueone").hasClass('clicked')) {
+            $(".planet").hide();
+            $(".label").hide();
+            $(".rogueone").show();
+            $("#footer").html("rogue one planets");
+            $(this).css("opacity", ".5");
+        }
+        else if ($("#solo").hasClass('clicked')) {
+            $(".planet").hide();
+            $(".label").hide();
+            $(".solo").show();
+            $("#footer").html("solo planets");
+            $(this).css("opacity", ".5");
+        }
+        else if (!isClicked) {
             $(".planet").show();
             $(".label").show();
             $("#alderanintact").hide();
@@ -167,8 +545,71 @@ $("#episode7").hover(
         }
     },
     function () {
-        var isClicked = $(this).hasClass('clicked');
-        if (!isClicked) {
+        var isClicked = $(".episodescroll").hasClass('clicked');
+        if ($("#episode1").hasClass('clicked')) {
+            $(".planet").hide();
+            $(".label").hide();
+            $(".episode1").show();
+            $("#footer").html("episode one planets");
+            $(this).css("opacity", ".5");
+        }
+        else if ($("#episode2").hasClass('clicked')) {
+            $(".planet").hide();
+            $(".label").hide();
+            $(".episode2").show();
+            $("#footer").html("episode two planets");
+            $(this).css("opacity", ".5");
+        }
+        else if ($("#episode3").hasClass('clicked')) {
+            $(".planet").hide();
+            $(".label").hide();
+            $(".episode3").show();
+            $("#footer").html("episode three planets");
+            $(this).css("opacity", ".5");
+        } 
+        else if ($("#episode4").hasClass('clicked')) {
+            $(".planet").hide();
+            $(".label").hide();
+            $(".episode4").show();
+            $("#footer").html("episode four planets");
+            $(this).css("opacity", ".5");
+        }
+        else if ($("#episode5").hasClass('clicked')) {
+            $(".planet").hide();
+            $(".label").hide();
+            $(".episode5").show();
+            $("#footer").html("episode five planets");
+            $(this).css("opacity", ".5");
+        }
+        else if ($("#episode6").hasClass('clicked')) {
+            $(".planet").hide();
+            $(".label").hide();
+            $(".episode6").show();
+            $("#footer").html("episode six planets");
+            $(this).css("opacity", ".5");
+        }
+        else if ($("#episode8").hasClass('clicked')) {
+            $(".planet").hide();
+            $(".label").hide();
+            $(".episode8").show();
+            $("#footer").html("episode eight planets");
+            $(this).css("opacity", ".5");
+        }
+        else if ($("#rogueone").hasClass('clicked')) {
+            $(".planet").hide();
+            $(".label").hide();
+            $(".rogueone").show();
+            $("#footer").html("rogue one planets");
+            $(this).css("opacity", ".5");
+        }
+        else if ($("#solo").hasClass('clicked')) {
+            $(".planet").hide();
+            $(".label").hide();
+            $(".solo").show();
+            $("#footer").html("solo planets");
+            $(this).css("opacity", ".5");
+        }
+        else if (!isClicked) {
             $(".planet").show();
             $(".label").show();
             $("#alderanintact").hide();
@@ -189,8 +630,71 @@ $("#episode8").hover(
         }
     },
     function () {
-        var isClicked = $(this).hasClass('clicked');
-        if (!isClicked) {
+        var isClicked = $(".episodescroll").hasClass('clicked');
+        if ($("#episode1").hasClass('clicked')) {
+            $(".planet").hide();
+            $(".label").hide();
+            $(".episode1").show();
+            $("#footer").html("episode one planets");
+            $(this).css("opacity", ".5");
+        }
+        else if ($("#episode2").hasClass('clicked')) {
+            $(".planet").hide();
+            $(".label").hide();
+            $(".episode2").show();
+            $("#footer").html("episode two planets");
+            $(this).css("opacity", ".5");
+        }
+        else if ($("#episode3").hasClass('clicked')) {
+            $(".planet").hide();
+            $(".label").hide();
+            $(".episode3").show();
+            $("#footer").html("episode three planets");
+            $(this).css("opacity", ".5");
+        } 
+        else if ($("#episode4").hasClass('clicked')) {
+            $(".planet").hide();
+            $(".label").hide();
+            $(".episode4").show();
+            $("#footer").html("episode four planets");
+            $(this).css("opacity", ".5");
+        }
+        else if ($("#episode5").hasClass('clicked')) {
+            $(".planet").hide();
+            $(".label").hide();
+            $(".episode5").show();
+            $("#footer").html("episode five planets");
+            $(this).css("opacity", ".5");
+        }
+        else if ($("#episode6").hasClass('clicked')) {
+            $(".planet").hide();
+            $(".label").hide();
+            $(".episode6").show();
+            $("#footer").html("episode six planets");
+            $(this).css("opacity", ".5");
+        }
+        else if ($("#episode7").hasClass('clicked')) {
+            $(".planet").hide();
+            $(".label").hide();
+            $(".episode7").show();
+            $("#footer").html("episode seven planets");
+            $(this).css("opacity", ".5");
+        }
+        else if ($("#rogueone").hasClass('clicked')) {
+            $(".planet").hide();
+            $(".label").hide();
+            $(".rogueone").show();
+            $("#footer").html("rogue one planets");
+            $(this).css("opacity", ".5");
+        }
+        else if ($("#solo").hasClass('clicked')) {
+            $(".planet").hide();
+            $(".label").hide();
+            $(".solo").show();
+            $("#footer").html("solo planets");
+            $(this).css("opacity", ".5");
+        }
+        else if (!isClicked) {
             $(".planet").show();
             $(".label").show();
             $("#alderanintact").hide();
@@ -211,8 +715,71 @@ $("#rogueone").hover(
         }
     },
     function () {
-        var isClicked = $(this).hasClass('clicked');
-        if (!isClicked) {
+        var isClicked = $(".episodescroll").hasClass('clicked');
+        if ($("#episode1").hasClass('clicked')) {
+            $(".planet").hide();
+            $(".label").hide();
+            $(".episode1").show();
+            $("#footer").html("episode one planets");
+            $(this).css("opacity", ".5");
+        }
+        else if ($("#episode2").hasClass('clicked')) {
+            $(".planet").hide();
+            $(".label").hide();
+            $(".episode2").show();
+            $("#footer").html("episode two planets");
+            $(this).css("opacity", ".5");
+        }
+        else if ($("#episode3").hasClass('clicked')) {
+            $(".planet").hide();
+            $(".label").hide();
+            $(".episode3").show();
+            $("#footer").html("episode three planets");
+            $(this).css("opacity", ".5");
+        } 
+        else if ($("#episode4").hasClass('clicked')) {
+            $(".planet").hide();
+            $(".label").hide();
+            $(".episode4").show();
+            $("#footer").html("episode four planets");
+            $(this).css("opacity", ".5");
+        }
+        else if ($("#episode5").hasClass('clicked')) {
+            $(".planet").hide();
+            $(".label").hide();
+            $(".episode5").show();
+            $("#footer").html("episode five planets");
+            $(this).css("opacity", ".5");
+        }
+        else if ($("#episode6").hasClass('clicked')) {
+            $(".planet").hide();
+            $(".label").hide();
+            $(".episode6").show();
+            $("#footer").html("episode six planets");
+            $(this).css("opacity", ".5");
+        }
+        else if ($("#episode7").hasClass('clicked')) {
+            $(".planet").hide();
+            $(".label").hide();
+            $(".episode7").show();
+            $("#footer").html("episode seven planets");
+            $(this).css("opacity", ".5");
+        }
+        else if ($("#episode8").hasClass('clicked')) {
+            $(".planet").hide();
+            $(".label").hide();
+            $(".episode8").show();
+            $("#footer").html("episode 8 planets");
+            $(this).css("opacity", ".5");
+        }
+        else if ($("#solo").hasClass('clicked')) {
+            $(".planet").hide();
+            $(".label").hide();
+            $(".solo").show();
+            $("#footer").html("solo planets");
+            $(this).css("opacity", ".5");
+        }
+        else if (!isClicked) {
             $(".planet").show();
             $(".label").show();
             $("#alderanintact").hide();
@@ -233,8 +800,71 @@ $("#solo").hover(
         }
     },
     function () {
-        var isClicked = $(this).hasClass('clicked');
-        if (!isClicked) {
+        var isClicked = $(".episodescroll").hasClass('clicked');
+        if ($("#episode1").hasClass('clicked')) {
+            $(".planet").hide();
+            $(".label").hide();
+            $(".episode1").show();
+            $("#footer").html("episode one planets");
+            $(this).css("opacity", ".5");
+        }
+        else if ($("#episode2").hasClass('clicked')) {
+            $(".planet").hide();
+            $(".label").hide();
+            $(".episode2").show();
+            $("#footer").html("episode two planets");
+            $(this).css("opacity", ".5");
+        }
+        else if ($("#episode3").hasClass('clicked')) {
+            $(".planet").hide();
+            $(".label").hide();
+            $(".episode3").show();
+            $("#footer").html("episode three planets");
+            $(this).css("opacity", ".5");
+        } 
+        else if ($("#episode4").hasClass('clicked')) {
+            $(".planet").hide();
+            $(".label").hide();
+            $(".episode4").show();
+            $("#footer").html("episode four planets");
+            $(this).css("opacity", ".5");
+        }
+        else if ($("#episode5").hasClass('clicked')) {
+            $(".planet").hide();
+            $(".label").hide();
+            $(".episode5").show();
+            $("#footer").html("episode five planets");
+            $(this).css("opacity", ".5");
+        }
+        else if ($("#episode6").hasClass('clicked')) {
+            $(".planet").hide();
+            $(".label").hide();
+            $(".episode6").show();
+            $("#footer").html("episode six planets");
+            $(this).css("opacity", ".5");
+        }
+        else if ($("#episode7").hasClass('clicked')) {
+            $(".planet").hide();
+            $(".label").hide();
+            $(".episode7").show();
+            $("#footer").html("episode seven planets");
+            $(this).css("opacity", ".5");
+        }
+        else if ($("#episode8").hasClass('clicked')) {
+            $(".planet").hide();
+            $(".label").hide();
+            $(".episode8").show();
+            $("#footer").html("episode 8 planets");
+            $(this).css("opacity", ".5");
+        }
+        else if ($("#rogueone").hasClass('clicked')) {
+            $(".planet").hide();
+            $(".label").hide();
+            $(".rogueone").show();
+            $("#footer").html("rogue one planets");
+            $(this).css("opacity", ".5");
+        }
+        else if (!isClicked) {
             $(".planet").show();
             $(".label").show();
             $("#alderanintact").hide();
