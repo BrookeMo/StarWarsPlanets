@@ -30,6 +30,9 @@ body, html {
     top: 0;
     width: 100%;
 }
+#title:hover {
+    cursor: pointer;
+}
 @media only screen and (max-width: 700px) {
     #title {
         font-size: 80px;
@@ -79,6 +82,7 @@ body, html {
 }
 .episodescroll:hover {
     opacity: 1;
+    cursor: pointer;
 }
 .clicked {
     opacity: 1;
@@ -167,6 +171,9 @@ body, html {
 .planet {
     width: 10px;
 }
+.planet:hover {
+    cursor: pointer;
+}
 @media only screen and (max-width: 425px) {
     .planet {
         width: 6px;
@@ -221,6 +228,9 @@ body, html {
     text-align: center;
     color: #000000;
     background-color: white;
+}
+.label:hover {
+    cursor: pointer;
 }
 @media only screen and (max-width: 425px) {
     .label {
