@@ -104,7 +104,7 @@ body, html {
     border-radius: 24.5px;
     background-color: #000000;
     border: solid 1px #f8e71c;
-    position: absolute;
+    position: fixed;
     bottom: 5%;
 }
 .mobilescroll {
