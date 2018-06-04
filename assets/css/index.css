@@ -63,6 +63,7 @@ body, html {
         height: 348px;
         width: 285.6px;
         margin-top: 40%;
+        top: 0%;
     }
 }
 #slider {
@@ -120,12 +121,20 @@ body, html {
     position: absolute;
     left: 15px;
     top: 13px;
-
 }
 #rightbutton {
     position: absolute;
     right: 15px;
     top: 13px;
+}
+#allplanets {
+    color: #f8e71c;
+    font-family: 'ITC Serif Gothic Std';
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 15px;
 }
 @media only screen and (max-width: 425px) {
     #mobileslider {
