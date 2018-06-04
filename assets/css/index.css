@@ -116,6 +116,17 @@ body, html {
     height: 21px;
     color: #f8e71c;
 }
+#leftbutton {
+    position: absolute;
+    left: 15px;
+    top: 13px;
+
+}
+#rightbutton {
+    position: absolute;
+    right: 15px;
+    top: 13px;
+}
 @media only screen and (max-width: 425px) {
     #mobileslider {
         display: block;
