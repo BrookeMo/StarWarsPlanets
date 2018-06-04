@@ -1,3 +1,5 @@
+window.scrollTo(0,1)
+
 $('#space').mousemove(function (e) {
     var amountMovedX = (e.pageX * -1 / 50);
     var amountMovedY = (e.pageY * -1 / 50);
