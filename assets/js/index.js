@@ -1,11 +1,3 @@
-var isSafari = /constructor/i.test(window.HTMLElement) || (function (p) { return p.toString() === "[object SafariRemoteNotification]"; })(!window['safari'] || safari.pushNotification);
-$(document).ready(function () {
-    if (isSafari = true) {
-        $('#map').css("top", "-50px");
-        console.log('working');
-    }
-});
-
 $('#space').mousemove(function (e) {
     var amountMovedX = (e.pageX * -1 / 50);
     var amountMovedY = (e.pageY * -1 / 50);
