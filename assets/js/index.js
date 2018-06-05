@@ -2,8 +2,8 @@ var isSafari = /constructor/i.test(window.HTMLElement) || (function (p) { return
 $(document).ready(function () {
     if (isSafari = true) {
         $('#map').css("top", "100px")
-    };
-};
+    }
+});
 
 $('#space').mousemove(function (e) {
     var amountMovedX = (e.pageX * -1 / 50);
