@@ -873,3 +873,51 @@ $("#solo").hover(
         }
     }
 );
+
+const pages = {
+    0: {title: "All Planets"},
+    1: {title: "Episode I"},
+    2: {title: "Episode II"},
+    3: {title: "Episode III"},
+    4: {title: "Episode IV"},
+    5: {title: "Episode V"},
+    6: {title: "Episode VI"},
+    7: {title: "Episode VII"},
+    8: {title: "Episode VIII"},
+    9: {title: "Rogue One"},
+    10: {title: "Solo"}
+  }
+  
+  let activePageIndex = 0;
+  const activeText = document.getElementById("activeText");
+  
+  const goBack = () => {
+    if(activePageIndex === 0){
+      activePageIndex = Object.keys(pages).length - 1
+    }else{
+      activePageIndex--;
+    }
+    setPageTitle()
+  }
+  
+  const goForward = () => {
+    if(activePageIndex === Object.keys(pages).length - 1){
+      activePageIndex = 0;
+    }else{
+      activePageIndex++;
+    }
+    console.log(activePageIndex);
+    setPageTitle()
+  }
+  
+  const setPageTitle = () => {
+    const title = pages[activePageIndex].title
+    activeText.innerHTML = title;
+  }
+  
+$("#leftbutton").click(function() {
+    goBack();
+});
+$("#rightbutton").click(function() {
+    goForward();
+});

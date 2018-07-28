@@ -109,31 +109,18 @@ body, html {
 }
 .mobilescroll {
     display: none;
+    color: #f8e71c;
+    font-family: 'ITC Serif Gothic Std';
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 15px;
 }
 .mobilebutton {
     display: none;
     width: 12px;
     height: 21px;
     color: #f8e71c;
-}
-#leftbutton {
-    position: absolute;
-    left: 15px;
-    top: 13px;
-}
-#rightbutton {
-    position: absolute;
-    right: 15px;
-    top: 13px;
-}
-#allplanets {
-    color: #f8e71c;
-    font-family: 'ITC Serif Gothic Std';
-    display: block;
-    text-align: center;
-    font-weight: bold;
-    font-size: 20px;
-    margin-top: 15px;
 }
 @media only screen and (max-width: 425px) {
     #mobileslider {
@@ -142,6 +129,21 @@ body, html {
     .mobilebutton {
         display: block;
     }
+    .mobilescroll {
+        display: block;
+    }
+}
+#leftbutton {
+    position: absolute;
+    left: 15px;
+    top: 13px;
+    z-index: 10;
+}
+#rightbutton {
+    position: absolute;
+    right: 15px;
+    top: 13px;
+    z-index: 10;
 }
 #solo {
     font-size: 20px;
