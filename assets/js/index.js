@@ -1,12 +1,11 @@
 $("#title").fitText(1, { minFontSize: '48px', maxFontSize: '95px' });
+$("#planetfooter").fitText(1, { minFontSize: '30px', maxFontSize: '55px' });
 
-$("#title").click(
-    function () {
+$("#title").click(function () {
         location.reload();
     });
 
-$(".episodescroll").click(
-    function () {
+$(".episodescroll").click(function () {
         var isClicked = $(this).hasClass('clicked');
         if (isClicked) {
             $(this).removeClass("clicked");

@@ -1,0 +1,49 @@
+.planetimagediv {
+    display: block;
+    margin: auto;
+    height: 70%;
+}
+.planetimage {
+    height: 100%;
+}
+@media only screen and (max-width: 530px) {
+    .planetimagediv {
+        /* width: 285.6px; */
+        max-width: 100%;
+        height: auto;
+    }
+    .planetimage {
+        max-width: 100%;
+        height: auto;
+    }
+}
+#planetfooter {
+    font-family: 'ITC Serif Gothic Std';
+    font-size: 55px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: -0.7px;
+    text-align: center;
+    color: #f8e71c;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin: 0;
+}
+#takodanaimage {
+    height: 45%;
+    margin-top: 50%;
+}
+#vandorimage {
+    height: 50%;
+    margin-top: 45%;
+}
+@media only screen and (max-width: 530px) {
+    #takodanaimage, #vandorimage {
+        margin-top: auto;
+        height: auto
+    }
+}

@@ -38,11 +38,6 @@ body, html {
         top: 3%;
     }
 }
-@media only screen and (max-width: 575px) {
-    #title {
-        font-size: 50px;
-    }
-}
 @media only screen and (max-width: 425px) {
     #title {
         text-align: center;
@@ -844,13 +839,13 @@ body, html {
     right: 37.34567901234568%;
     z-index: 10;
 }
-#corella {
+#corellia {
     position: absolute;
     top: 48.52374839537869%;
     right: 56.697530864197525%;
     z-index: 10;
 }
-#corellalabel {
+#corellialabel {
     position: absolute;
     top: 48.19537869062901%;
     right: 49.01851851851852%;
