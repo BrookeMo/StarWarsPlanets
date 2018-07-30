@@ -2,7 +2,7 @@ body, html {
     height: 100%;
     margin: 0;
     background-image: url("./images/space.png");
-    background-size: auto;
+    background-size: auto 105%;
 }
 #space {
     position: fixed;
