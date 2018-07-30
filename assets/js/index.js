@@ -1,8 +1,4 @@
-$('#space').mousemove(function (e) {
-    var amountMovedX = (e.pageX * -1 / 50);
-    var amountMovedY = (e.pageY * -1 / 50);
-    $(this).css('background-position', amountMovedX + 'px ' + amountMovedY + 'px');
-});
+$("#title").fitText(1, { minFontSize: '48px', maxFontSize: '95px' });
 
 $("#title").click(
     function () {
