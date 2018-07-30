@@ -79,3 +79,45 @@ $("#bespin, #bespinlabel").click(function(){
 $("#endor, #endorlabel").click(function(){
     location.href = "./Planets/moonofendor.html";
 });
+$("#datooine, #datooinelabel").click(function(){
+    location.href = "./Planets/datooine.html";
+});
+$("#yavin, #yavinlabel").click(function(){
+    location.href = "./Planets/yavin4.html";
+});
+$("#stygeonprime, #stygeonprimelabel").click(function(){
+    location.href = "./Planets/stygeonprime.html";
+});
+$("#kessel, #kessellabel").click(function(){
+    location.href = "./Planets/kessel.html";
+});
+$("#dagobah, #dagobahlabel").click(function(){
+    location.href = "./Planets/dagobah.html";
+});
+$("#lahmu, #lahmulabel").click(function(){
+    location.href = "./Planets/lahmu.html";
+});
+$("#seelos, #seeloslabel").click(function(){
+    location.href = "./Planets/seelos.html";
+});
+$("#atollon, #atollonlabel").click(function(){
+    location.href = "./Planets/atollon.html";
+});
+$("#eadu, #eadulabel").click(function(){
+    location.href = "./Planets/eadu.html";
+});
+$("#kamino, #kaminolabel").click(function(){
+    location.href = "./Planets/kamino.html";
+});
+$("#ryloth, #rylothlabel").click(function(){
+    location.href = "./Planets/ryloth.html";
+});
+$("#utapau, #utapaulabel").click(function(){
+    location.href = "./Planets/utapau.html";
+});
+$("#mustafar, #mustafarlabel").click(function(){
+    location.href = "./Planets/mustafar.html";
+});
+$("#starkillerbase, #starkillerbaselabel").click(function(){
+    location.href = "./Planets/starkillerbase.html";
+});
