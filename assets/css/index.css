@@ -1,19 +1,16 @@
 body, html {
-        height: 100%;
-        margin: 0;
+    height: 100%;
+    margin: 0;
+    background-image: url("./images/space.png");
+    background-size: cover;
 }
 #space {
-    overflow: hidden;
-    background-image: url("./images/space.png");
-    background-position: 0 0;
-    background-repeat: no-repeat;
     position: fixed;
     top: 0;
     width: 100%;
     min-height: 100vh;
     height: 100%;
     z-index: 0;
-    background-size: 103% 103%;
     display: flex;
     justify-content: center;
 }
