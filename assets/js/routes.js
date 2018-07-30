@@ -121,3 +121,24 @@ $("#mustafar, #mustafarlabel").click(function(){
 $("#starkillerbase, #starkillerbaselabel").click(function(){
     location.href = "./Planets/starkillerbase.html";
 });
+$("#cantonica, #cantonicalabel").click(function(){
+    location.href = "./Planets/cantonica.html";
+});
+$("#malachor, #malachorlabel").click(function(){
+    location.href = "./Planets/malachor.html";
+});
+$("#lothal, #lothallabel").click(function(){
+    location.href = "./Planets/lothal.html";
+});
+$("#lasan, #lasanlabel").click(function(){
+    location.href = "./Planets/lasan.html";
+});
+$("#polismassa, #polismassalabel").click(function(){
+    location.href = "./Planets/polismassa.html";
+});
+$("#ahchto, #ahchtolabel").click(function(){
+    location.href = "./Planets/ahch-to.html";
+});
+$("#savareen, #savareenlabel").click(function(){
+    location.href = "./Planets/savareen.html";
+});
