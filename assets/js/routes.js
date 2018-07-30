@@ -1,27 +1,27 @@
 $("#coruscant, #coruscantlabel").click(function(){
-    location.href = "./coruscant.html";
+    location.href = "./Planets/coruscant.html";
 });
 $("#hosnianprime, #hosnianprimelabel").click(function(){
-    location.href = "./hosnianprime.html";
+    location.href = "./Planets/hosnianprime.html";
 });
 $("#corellia, #corellialabel").click(function(){
-    location.href = "./corellia.html";
+    location.href = "./Planets/corellia.html";
 });
 $("#alderanintact, #alderandestroyed, #alderanlabel").click(function(){
-    location.href = "./alderan.html";
+    location.href = "./Planets/alderan.html";
 });
 $("#takodana, #takodanalabel").click(function(){
-    location.href = "./takodana.html";
+    location.href = "./Planets/takodana.html";
 });
 $("#jakku, #jakkulabel").click(function(){
-    location.href = "./jakku.html";
+    location.href = "./Planets/jakku.html";
 });
 $("#onderon, #onderonlabel").click(function(){
-    location.href = "./onderon.html";
+    location.href = "./Planets/onderon.html";
 });
 $("#mimban, #mimbanlabel").click(function(){
-    location.href = "./mimban.html";
+    location.href = "./Planets/mimban.html";
 });
 $("#vandor, #vandorlabel").click(function(){
-    location.href = "./vandor.html";
+    location.href = "./Planets/vandor.html";
 });
