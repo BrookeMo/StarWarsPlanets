@@ -118,7 +118,7 @@ $("#utapau, #utapaulabel").click(function(){
 $("#mustafar, #mustafarlabel").click(function(){
     location.href = "./Planets/mustafar.html";
 });
-$("#starkillerbase, #starkillerbaselabel").click(function(){
+$("#starkillerbase, #starkillerlabel").click(function(){
     location.href = "./Planets/starkillerbase.html";
 });
 $("#cantonica, #cantonicalabel").click(function(){
