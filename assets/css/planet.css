@@ -5,6 +5,7 @@
 }
 .planetimage {
     height: 100%;
+    width: auto;
 }
 @media only screen and (max-width: 530px) {
     .planetimagediv {
@@ -46,4 +47,30 @@
         margin-top: auto;
         height: auto
     }
+}
+
+#ahchtoimage {
+    width: 320px;
+    height: auto;
+    margin-top: 35%;
+}
+@media only screen and (max-width: 768px) {
+    #ahchtoimage {
+        margin-top: 25%;
+    }
+}
+#alderanimage {
+    width: 480px;
+    height: auto;
+    margin-top: 7%;
+}
+#cantonicaimage {
+    width: 450px;
+    height: auto;
+    margin-top: 10%;
+}
+#corelliaimage {
+    width: 480px;
+    height: auto;
+    margin-top: 7%;
 }
